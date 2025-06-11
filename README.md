@@ -40,10 +40,7 @@ A solução correta, marcada como aceita, define uma função personalizada de t
 
 ## 3. Motivos da rejeição das outras respostas
 
-As outras respostas não foram aceitas por apresentarem uma das seguintes limitações:
-
-* Não removiam pontuação corretamente;
-* Utilizavam `stop_words` ou outras configurações que não estavam claras ou otimizadas para o problema apresentado.
+Nessa pergunta em especifico somente uma reposta foi enviada, mas a segunda solução dada pelo mesmo usuário não remove pontuações com mais de um caracter. ex: '...'
 
 ---
 
