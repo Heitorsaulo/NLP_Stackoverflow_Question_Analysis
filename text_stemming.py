@@ -1,6 +1,5 @@
 import string
 from sklearn.feature_extraction.text import CountVectorizer
-import nltk
 from nltk import word_tokenize
 from nltk.stem.porter import PorterStemmer
 
@@ -17,9 +16,6 @@ print('Sentence 1: %s' %sentence1.toarray())
 print('Sentence 2: %s' %sentence2.toarray())
 
 
-#Now, let's say I want to remove stop words and stem the words. One option would be to do it like so:
-#######
-# based on http://www.cs.duke.edu/courses/spring14/compsci290/assignments/lab02.html
 stemmer = PorterStemmer()
 def stem_tokens(tokens, stemmer):
     stemmed = []
@@ -35,7 +31,7 @@ def tokenize(text):
     tokens = [i for i in tokens if i not in string.punctuation]
     stems = stem_tokens(tokens, stemmer)
     return stems
-########
+
 
 vect = CountVectorizer(tokenizer=tokenize, stop_words='english', token_pattern=None)
 
