@@ -47,7 +47,7 @@ As outras respostas não foram aceitas por apresentarem uma das seguintes limita
 
 ---
 
-## 5. Referências
+## 4. Referências
 
 * Stack Overflow - [Pergunta Original](https://stackoverflow.com/questions/26126442/combining-text-stemming-and-removal-of-punctuation-in-nltk-and-scikit-learn/26132560#26132560)
 * Documentação NLTK: [https://www.nltk.org](https://www.nltk.org)
