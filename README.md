@@ -18,7 +18,7 @@
 
 ## 1. Descrição do problema
 
-A pergunta no Stack Overflow trata de como integrar **stemming** e **remoção de pontuação** em um pipeline de processamento de texto utilizando as bibliotecas **NLTK** e **Scikit-Learn**.
+A pergunta no Stack Overflow trata de como integrar **stemming** (processo de reduzir uma palavra ao seu radical) e **remoção de pontuação** em um pipeline de processamento de texto utilizando as bibliotecas **NLTK** e **Scikit-Learn**.
 
 O autor quer que o texto seja:
 
