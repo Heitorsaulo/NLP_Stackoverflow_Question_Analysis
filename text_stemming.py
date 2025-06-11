@@ -25,7 +25,7 @@ def stem_tokens(tokens, stemmer):
 
 def tokenize(text):
     # OPCAO 1: Remove punctuation before tokenization
-    #text = "".join([ch for ch in text if ch not in string.punctuation])
+    text = "".join([ch for ch in text if ch not in string.punctuation])
     tokens = word_tokenize(text)
     # OPCAO 2: Remove punctuation after tokenization
     tokens = [i for i in tokens if i not in string.punctuation]
