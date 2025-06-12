@@ -15,9 +15,7 @@
 * Rômulo Santana
 
 ---
-# Tópico 1
-
-## 1.1 Escolha da pergunta
+# 1. Escolha da pergunta
 
 *Perguntas separadas pelo filtro inicial de escolhas:* 
 
@@ -30,9 +28,7 @@
 *Resposta:*
 ![img2.png](Resposta.png)
 
-# Tópico 2
-
-## 1.2 Descrição do problema
+# 2. Descrição do problema
 
 A pergunta no Stack Overflow trata de como integrar **stemming** (processo de reduzir uma palavra ao seu radical) e **remoção de pontuação** em um pipeline de processamento de texto utilizando as bibliotecas **NLTK** e **Scikit-Learn**.
 
@@ -40,9 +36,9 @@ O autor quer que o texto seja:
 
 * Normalizado (lowercase);
 * Sem pontuação;
----
+  
 
-## 2.2 Solução adotada (resposta aceita)
+# 3. Solução adotada (resposta aceita)
 
 A solução correta, marcada como aceita, define uma função personalizada de tokenização, que remove a pontuação.
 
@@ -52,9 +48,9 @@ A solução correta, marcada como aceita, define uma função personalizada de t
 * Sem pontuação
 * Sem distinção entre "Swimming", "Swim", etc.
 
----
 
-## 3.2 Código da solução
+
+# 4. Código da solução
 
 **Parte 1: Importando Bibliotecas**
 Esta parte importa as bibliotecas necessárias para a solução.
@@ -133,13 +129,13 @@ print('Vocabulary: %s' %vect.get_feature_names_out())
 print('Sentence 1: %s' %sentence1.toarray())
 print('Sentence 2: %s' %sentence2.toarray())
 ```
-## 4.2 Motivos da rejeição das outras respostas
+# 5. Motivos da rejeição das outras respostas
 
 Nessa pergunta em especifico somente uma reposta foi enviada, mas a segunda solução dada pelo mesmo usuário não remove pontuações com mais de um caracter. ex: '...'
 
 ---
 
-## 5.2 Referências
+# 6. Referências
 
 * Stack Overflow - [Pergunta Original](https://stackoverflow.com/questions/26126442/combining-text-stemming-and-removal-of-punctuation-in-nltk-and-scikit-learn/26132560#26132560)
 * Documentação NLTK: [https://www.nltk.org](https://www.nltk.org)
