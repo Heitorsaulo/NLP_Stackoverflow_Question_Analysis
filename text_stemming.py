@@ -2,6 +2,8 @@ import string
 from sklearn.feature_extraction.text import CountVectorizer
 from nltk import word_tokenize
 from nltk.stem.porter import PorterStemmer
+import nltk
+nltk.download('punkt_tab')
 
 #plain usage of the CountVectorizer
 vocab = ['The swimmer likes swimming so he swims.']
