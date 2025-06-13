@@ -8,11 +8,12 @@
 
 **Participantes da equipe:**
 
-* Heitor Santos
-* Itor Queiroz
-* Lanna Silva
-* Lavínia Santos
-* Rômulo Santana
+* Heitor Saulo Dantas Santos
+* Itor Carlos Souza Queiroz
+* Lanna Luara Novaes Silva
+* Lavínia Louise Rosa Santos
+* Rômulo Menezes De Santana
+
 
 ---
 # 1. Escolha da pergunta
