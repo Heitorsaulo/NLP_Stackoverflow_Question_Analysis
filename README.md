@@ -144,3 +144,30 @@ Nessa pergunta em especifico somente uma reposta foi enviada, mas a segunda solu
 
 ---
 
+## Executando o código
+
+Para executar o código, execute os passos abaixo
+
+1. **Clone o repositório**  
+   Use o comando abaixo para clonar o repositório:
+
+   ```
+   git clone https://github.com/Heitorsaulo/PLN_2025_Santos_Heitor.git
+   ```
+
+2. **Navegue para o diretório do projeto**  
+   Abra um terminal de sua preferência na pasta do projeto.
+
+3. **Instale as dependências necessárias**
+    Instale as dependências usadas com o comando abaixo:
+
+    ```
+    pip install -r requirements.txt
+    ```
+
+4. **Execute o arquivo de script**  
+   Execute o script com o comando abaixo:
+
+   ```
+   python text_stemming.py
+   ```
